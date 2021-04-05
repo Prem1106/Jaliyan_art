@@ -1,0 +1,8 @@
+.carousel-indicators li {
+  background-color: #FF5F17 !important;
+}
+
+.carousel{
+
+  position: absolute;
+}

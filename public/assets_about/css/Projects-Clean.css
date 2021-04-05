@@ -1,0 +1,100 @@
+.projects-clean {
+  color: #313437;
+  background-image: linear-gradient(45deg, #ff5f17, #f11b63);
+}
+
+.projects-clean p {
+  color: #fff;
+  font-size: 16px;
+  text-align: end;
+  padding-top: 25px;
+}
+
+.projects-clean h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+  font-size: 60px;
+  background: -webkit-linear-gradient(#ff5f17, #f11b63);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width:767px) {
+  .projects-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.projects-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.projects-clean .intro p {
+  margin-bottom: 0;
+  color: white;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.projects-clean .projects {
+  padding-bottom: 40px;
+}
+
+.projects-clean .item {
+  text-align: center;
+  padding-top: 15px;
+  min-height: 150px;
+}
+
+.projects-clean .item .name {
+  font-weight: bold;
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color: inherit;
+}
+
+.projects-clean .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.row.projects {
+  justify-content: center;
+}
+
+#pro {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #1b262a;
+}
+
+.item {
+  background-color: white;
+  height: 200px;
+  border: 10px solid #1b262a;
+}
+
+.row.d-lg-flex.projects {
+  margin-top: 15px;
+  padding-top: 50px;
+}
+
+hr {
+  height: 6px;
+  background-color: #b2b3b3;
+  width: 70px;
+}
+
+.h1, h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
